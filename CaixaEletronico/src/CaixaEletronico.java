@@ -2,7 +2,7 @@ public class CaixaEletronico {
     public static void main(String[] args) {
 
         double saldo = 25.0;
-        double valorSolicitado = 26.00;
+        double valorSolicitado = 17.00;
 
         if (valorSolicitado < saldo) { 
             saldo = saldo - valorSolicitado;
@@ -10,6 +10,6 @@ public class CaixaEletronico {
         } else {
             System.out.println("Saldo insuficiente."); 
         }
-
+// controle de fluxo simples
     }
 }

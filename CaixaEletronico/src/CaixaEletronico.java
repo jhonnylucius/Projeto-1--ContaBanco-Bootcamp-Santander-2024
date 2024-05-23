@@ -10,6 +10,6 @@ public class CaixaEletronico {
         } else {
             System.out.println("Saldo insuficiente."); 
         }
-// controle de fluxo simples
+// controle de fluxo simples (sem o else) e composta com mif e else
     }
 }

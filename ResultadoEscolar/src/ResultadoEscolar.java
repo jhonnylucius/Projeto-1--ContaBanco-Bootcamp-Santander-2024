@@ -1,11 +1,11 @@
 public class ResultadoEscolar {
     public static void main(String[] args) throws Exception {
-       int nota = 6;
+       int nota = 5;
 
-       if (nota <= 6) 
-        System.out.println("Reprovado");
+       if (nota >= 6) 
+        System.out.println("Aprovado");
        else 
-        System.out.println("Aprovado");         
+        System.out.println("Reprovado");         
        }
     
 }

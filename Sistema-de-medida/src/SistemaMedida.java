@@ -14,7 +14,7 @@ public class SistemaMedida {
 
    // acima estrutura de condição if, else e else if 
 
-   // abaixo estrutura Switch
+   // abaixo estrutura Switch case
      switch (sigla) {
         case "P":{
             System.out.println("Pequeno");    
@@ -34,4 +34,4 @@ public class SistemaMedida {
        
     }
 }
-// continuar a aulo no minuto 7:03
+// continuar a aula no minuto 7:03

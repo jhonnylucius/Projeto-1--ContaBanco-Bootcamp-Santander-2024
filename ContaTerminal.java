@@ -34,7 +34,7 @@ public class ContaTerminal {
         
         String mensagem = "Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, " +
                 "sua agência é " + agencia + ", conta " + numero + " e seu saldo " + saldo +
-                " já está disponível para saque.";
+                " já está disponível para saque. Seja bem vindo!";
 
         System.out.println(mensagem);
     }

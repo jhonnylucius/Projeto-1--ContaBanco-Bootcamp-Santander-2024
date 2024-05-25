@@ -1,6 +1,6 @@
 /*public class PlanoOperadora {
     public static void main(String[] args) {
-        String plano = "m"; // Teste com "m" para verificar a insensibilidade à caixa
+        String plano = "m";  
 
         if (plano.equalsIgnoreCase("B")) {
             System.out.println("100 minutos de ligação");
@@ -26,7 +26,7 @@ maiusculas ou minusculas com equalsIgnoreCase para cada plano.*/
 
 public class PlanoOperadora {
     public static void main(String[] args) {
-        String plano = "t"; // Teste com "m" para verificar a insensibilidade à caixa
+        String plano = "t";  
 
         switch (plano.toUpperCase()) { // Convertemos para caixa alta para a comparação
             case "B":

@@ -1,6 +1,6 @@
 public class SistemaMedida {
     public static void main(String[] args) throws Exception {
-       String sigla = "A";
+       String sigla = "P";
 /* 
        if (sigla == "P") 
         System.out.println("Pequeno");
@@ -31,7 +31,7 @@ public class SistemaMedida {
         default:
         System.err.println("Indefinido");
             break;
-     }   
+     } 
        
     }
 }

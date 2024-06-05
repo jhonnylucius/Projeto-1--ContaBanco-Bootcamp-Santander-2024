@@ -1,6 +1,6 @@
 public class ExemploForArrays {
 public static void main(String[] args) {
-    String alunos [] = {"FELIPE", "JONAS", , "LUCIANO", "MILENE", "DANIELA"};
+        String alunos [] = {"FELIPE", "JONAS", "lulu", "LUCIANO", "MILENE", "DANIELA"};
 
 // FORMA ABREVIADA
 

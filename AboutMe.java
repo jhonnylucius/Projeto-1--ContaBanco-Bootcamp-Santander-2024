@@ -68,9 +68,9 @@ public class AboutMe {
                     altura = 0.0;
                 }
 
-                // Espera 5 segundos
+                // Espera 1 segundos
                 try {
-                    Thread.sleep(5000); // 5000 milissegundos = 5 segundos
+                    Thread.sleep(5000); // 1000 milissegundos = 5 segundos
                 } catch (InterruptedException ex) {
                     Thread.currentThread().interrupt();
                 }

@@ -2,7 +2,7 @@ import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class AboutMe {
+public class TratamentoDeExceções {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
         String nome = "";

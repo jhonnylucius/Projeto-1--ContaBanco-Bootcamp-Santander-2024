@@ -28,7 +28,8 @@ public class ContaTerminal {
             } catch (InputMismatchException e) {
                 System.err.println("Por favor, insira o dado correto.");
                 scanner.nextLine(); 
-            }
+            scanner.close();}
+
         }
 
         

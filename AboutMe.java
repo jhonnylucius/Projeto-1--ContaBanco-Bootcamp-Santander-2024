@@ -70,7 +70,7 @@ public class AboutMe {
 
                 // Espera 1 segundos
                 try {
-                    Thread.sleep(5000); // 1000 milissegundos = 5 segundos
+                    Thread.sleep(1000); // 1000 milissegundos = 1 segundos
                 } catch (InterruptedException ex) {
                     Thread.currentThread().interrupt();
                 }

@@ -24,7 +24,7 @@ public class FormatadorCepExemplo {
             try {
                 throw new CepInvalidoException();
             } catch (CepInvalidoException e) {
-                // TODO Auto-generated catch block
+              
                 e.printStackTrace();
             }
         }
@@ -32,7 +32,7 @@ public class FormatadorCepExemplo {
             try {
                 throw new CepInvalidoException();
             } catch (CepInvalidoException e) {
-                // TODO Auto-generated catch block
+                
                 e.printStackTrace();
             }
         }
@@ -41,8 +41,12 @@ public class FormatadorCepExemplo {
 }
 
 class CepInvalidoExcepition extends Exception {
-    public CepInvalidoException(String message) {
-        super(message);
+    /**
+     * @param message
+     */
+    public void CepInvalidoException(String message) {
+       System.out.println("CEP inválido");
     }
+    
 }
 

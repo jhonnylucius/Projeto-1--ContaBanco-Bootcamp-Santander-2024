@@ -25,7 +25,7 @@ public class CalculoImposto {
         }
 
         float saida = valorSalario - valorImposto + valorBeneficios;
-        System.out.println(saida);
+        System.out.println("O Seu salário liquido é: " + saida);
         System.out.println("Imposto de Renda: " + valorImposto);
 
         terminal.close(); 

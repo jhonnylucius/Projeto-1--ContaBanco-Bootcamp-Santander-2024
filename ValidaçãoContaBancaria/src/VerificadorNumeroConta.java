@@ -4,7 +4,7 @@ public class VerificadorNumeroConta {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        System.out.print("Digite numero da conta: ");
        String numeroConta = scanner.nextLine();
 
         try {

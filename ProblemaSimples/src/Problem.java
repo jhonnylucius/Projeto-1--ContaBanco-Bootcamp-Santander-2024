@@ -7,14 +7,14 @@ public class Problem {
 		
 		int a, b, prod;
 		System.out.println("Digite o primeiro número:");
-		a = scanner.nextInt();
+			a = scanner.nextInt();
 		System.out.println("Digite o primeiro número:");
-		b = scanner.nextInt();
+			b = scanner.nextInt();
 		 //TODO: Complete os espaços em branco com uma possível solução para o desafio 
-		prod = a*b;  
+			prod = a*b;  
 
 		System.out.println("PROD = " + prod);
-		scanner.close();25
+			scanner.close();
 		
 	}
 	

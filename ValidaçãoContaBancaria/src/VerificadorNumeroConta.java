@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ValidacaoConta {
+public class VerificadorNumeroConta {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

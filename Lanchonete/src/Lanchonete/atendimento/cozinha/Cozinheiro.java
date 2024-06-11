@@ -12,8 +12,7 @@ public class Cozinheiro {
     }
     
     public void adicionarComboNoBalcao() {
-    adicionarLancheNoBalcao();
-    adicionarSucoNoBalcao();
+        System.out.println("ADICIONADO O COMBO NO BALCÃO");
     }
     private void prepararVitamina() {
         System.out.println("PREPARANDO VITAMINA DE FRUTAS COM LEITE");

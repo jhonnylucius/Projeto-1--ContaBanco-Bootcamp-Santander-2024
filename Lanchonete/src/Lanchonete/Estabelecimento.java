@@ -7,18 +7,23 @@ import Lanchonete.atendimento.cozinha.Cozinheiro;
 public class Estabelecimento {
     public static void main(String[] args) throws Exception {
         
-        Cozinheiro cozinheiro = new Cozinheiro();
+        Atendente atendente = new Atendente();
+                
+        atendente.servirMesa();
 
+        Cliente cliente = new Cliente();
+
+        cliente.escolherLanche();
+        cliente.fazerPedido();
+        
+              
+        Cozinheiro cozinheiro = new Cozinheiro();
         
         cozinheiro.adicionarLancheNoBalcao();
         cozinheiro.adicionarComboNoBalcao();
         cozinheiro.adicionarSucoNoBalcao();
 
-        
-        Atendente atendente = new Atendente();
-        
-        
-        atendente.servirMesa();
+            
         
         
         Almoxarife almoxarife = new Almoxarife();
@@ -26,10 +31,9 @@ public class Estabelecimento {
         
         almoxarife.trocarGas();
 
-        Cliente cliente = new Cliente();
+        
 
-        cliente.escolherLanche();
-        cliente.fazerPedido();
+        
         cliente.pedirConta();
         cliente.pagarConta();
 

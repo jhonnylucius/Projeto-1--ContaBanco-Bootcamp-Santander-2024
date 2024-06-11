@@ -1,4 +1,6 @@
-package Lanchonete;
+package Lanchonete.atendimento.cozinha;
+
+import Lanchonete.atendimento.Atendente;
 
 public class Cozinheiro {
     public void adicionarLancheNoBalcao() {

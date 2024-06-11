@@ -1,7 +1,7 @@
-package Lanchonete;
+package Lanchonete.atendimento;
 
 public class Atendente {
-    public void servindoMesa() {
+    public void servirMesa() {
         System.out.println("ANOTANDO O PEDIDO DA MESA");
     }
     public void pegarLancheCozinha() {

@@ -7,7 +7,7 @@ public class Cliente {
         
     }
     public void fazerPedido() {
-        System.out.println("EU QUE UMA VITAMINA, UM LANCHE COM HAMBURGUER!!");
+        System.out.println("EU QUERO UMA VITAMINA, UM LANCHE COM HAMBURGUER!!");
     }
     public void pedirConta() {
         System.out.println("ATENDENTE A CONTA, POR FAVOR !!");

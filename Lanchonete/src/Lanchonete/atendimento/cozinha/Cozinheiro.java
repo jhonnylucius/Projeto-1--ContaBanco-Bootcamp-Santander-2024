@@ -7,46 +7,46 @@ public class Cozinheiro {
         System.out.println("ADICIONADO LANCHE NO BALCÃO");
     }
     
-public void adicionarSucoNoBalcao() {
+    public void adicionarSucoNoBalcao() {
         System.out.println("ADICIONADO SUCO NO BALCÃO");
     }
     
-public void adicionarComboNoBalcao() {
+    public void adicionarComboNoBalcao() {
     adicionarLancheNoBalcao();
     adicionarSucoNoBalcao();
     }
-    public void prepararVitamina() {
+    private void prepararVitamina() {
         System.out.println("PREPARANDO VITAMINA DE FRUTAS COM LEITE");
     }
-public void prepararLanche() {
+    private void prepararLanche() {
     System.out.println("PREPARANDO LANCHE TIPO HAMBURGUER");
 }
-public void prepararCombo() {
+    private void prepararCombo() {
     prepararLanche();
     prepararVitamina();
     }
-    public void selecionarIngredientesLanche() {
+    private void selecionarIngredientesLanche() {
         System.out.println("SELECIONANDO O PÃO, SALADA, OVO E CARNE");
     }
-    public void selecionarIngredientesVitamina() {
+    private void selecionarIngredientesVitamina() {
         System.out.println("SELECIONANDO O FRUTA, LEITE, SUCO, PAÇOCA");
     }
-    public void lavarIngredientes() {
+    private void lavarIngredientes() {
         System.out.println("LAVANDO INGREDIENTES");
     }
-    public void baterVitaminaNoLiquidificador() {
+    private void baterVitaminaNoLiquidificador() {
         System.out.println("BATENDO VITAMINA NO LIQUIDIFICADOR");
     }
-    public void fritarIngredientesLanche() {
+    private void fritarIngredientesLanche() {
         System.out.println("FRITANDO  OVO E CARNE PARA O HAMBURGUER");
     }
-    public void pedirParaTrocarGas(Atendente meuAmigo) {
+    private void pedirParaTrocarGas(Atendente meuAmigo) {
         meuAmigo.trocarGas();
     }
-    public void pedirParaTrocarGas(Almoxarife meuAmigo) {
+    private void pedirParaTrocarGas(Almoxarife meuAmigo) {
         meuAmigo.trocarGas();
     }
-    public void pedirIngredientes(Almoxarife almoxarife) {
+    private void pedirIngredientes(Almoxarife almoxarife) {
         almoxarife.entregarIngredientes();
     }
 }

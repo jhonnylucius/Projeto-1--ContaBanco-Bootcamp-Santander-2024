@@ -1,4 +1,4 @@
-package Lanchonete;
+package Lanchonete.areacliente;
 
 
 public class Cliente {
@@ -12,7 +12,7 @@ public class Cliente {
     public void pedirConta() {
         System.out.println("ATENDENTE A CONTA, POR FAVOR !!");
     }
-    public void consultarSaldoApp() {
+    private void consultarSaldoApp() {
         System.out.println("CONSULTANDO SALDO");
     }    
     public void pagarConta() {

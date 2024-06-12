@@ -1,7 +1,9 @@
+package Apps;
 public class MSNMesseger extends SistemaDeEnvioDeMensagens{
 
     public void enviarMensagem() {
-        System.out.println("Enviando mensagem MSN");        
+        validarConectadoInternet();
+        System.out.println("Enviando um MSN");        
     }
 
     public void receberMensagem() {

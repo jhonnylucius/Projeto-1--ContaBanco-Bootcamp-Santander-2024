@@ -5,7 +5,7 @@ public class ComputadorLaura {
         msn.enviarMensagem();
         msn.receberMensagem();
         
-        FacebookMessenger fcb = new FacebookMessenger();
+        Chat fcb = new FacebookMessenger();
         System.out.println("facebook");
         fcb.enviarMensagem();
         fcb.receberMensagem();
